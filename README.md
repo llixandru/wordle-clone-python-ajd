@@ -18,7 +18,7 @@ Players have six attempts to guess a five-letter word, with feedback given for e
 
 After every guess, each letter is marked as either **green**, **yellow** or **gray**: **green** indicates that letter is correct and in the correct position, **yellow** means it is in the answer but not in the right position, while **gray** indicates it is not in the answer at all.
 
-In the following article, we will look at how to create our own Wordle clone by using Python, an Autonomous JSON database, and GraalVM.
+In the following article, we will look at how to create our own Wordle clone by using Python and an Autonomous JSON database.
 
 
 ## Prerequisites
@@ -39,8 +39,6 @@ Before we get started, we need to install some dependencies.
 - [Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client/downloads.html), which enables development and deployment of applications that connect to Oracle Database, either on-premise or in the Cloud. 
   
   > _The Instant Client libraries provide the necessary network connectivity and advanced data features to make full use of Oracle Database. The libraries are used by the Oracle APIs of popular languages and environments including Python, Node.js, Go, PHP and Ruby, as well as providing access for Oracle Call Interface (OCI), Oracle C++ Call Interface (OCCI), JDBC OCI, ODBC and Pro*C applications. Tools included in Instant Client, such as SQL*Plus, SQL*Loader and Oracle Data Pump, provide quick and convenient data access._
-
-- [GraalVM](https://www.graalvm.org), for generating a native image of our application.
   
 
 ## Create an Autonomous JSON Database
