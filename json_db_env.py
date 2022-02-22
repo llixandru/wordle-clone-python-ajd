@@ -1,10 +1,10 @@
 import os
 
 # Oracle Instant Client Location
-lib_dir=os.environ.get("HOME")+"/Documents/Documents - sanakan/oracle"
+lib_dir=os.environ.get("HOME")+"/oracle/instantclient"
 
 # Connection details
 
 user="admin"
-password="Welcome_1234"
-dsn="db202202221023_high"
+password="[PASSWORD]"
+dsn="[DATABASENAME_tp]"
