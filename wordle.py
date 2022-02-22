@@ -2,7 +2,7 @@
 
 import re
 from rich.console import Console
-import soda_ajd as word
+import ajd_connection as word
 
 console = Console()
 
